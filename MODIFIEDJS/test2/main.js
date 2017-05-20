@@ -23,7 +23,12 @@ $(".subHeading").css("display","none")
     });   
 }
 else{
-$('.hideText').hide();
+$(".hideText").css("display","none");
+ $(".mainNavul ul").on("mouseout", function () {
+        $(".footerText").hide();
+         $(".footer li").css("display", "block");
+});    
+$(".footerText").hide();   
 $('.leftSideBar').css({"height":"100%"});    
 $('.subMenu').css({"position":"","left":"","top":"","margin-top":"0px"});     
 $(".expand_bar").css("left","70px");
@@ -33,6 +38,7 @@ $(".expand_icon").text(">");
 $(".subHeading").css("display","inline-block")     
 $('.subMenu').find("span").addClass("triangle_left"); 
 $('.subMenu').find("span").removeClass("triangle_down");
+
 }
 
 });

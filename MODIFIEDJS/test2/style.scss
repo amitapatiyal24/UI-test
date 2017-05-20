@@ -94,12 +94,13 @@ $text-color: #f2f2f2;
 
 .mainNav {
     width: 100%;
-    min-height: 445px;
+    min-height: 449px;
+    background-color: $primary-color;
 }
 
 .mainNavul,
 .footer {
-    width: 100%;
+    width: 100%;background-color: $primary-color;
 }
 
 .mainNavul li,

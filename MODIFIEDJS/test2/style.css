@@ -82,11 +82,13 @@
 
 .mainNav {
   width: 100%;
-  min-height: 445px; }
+  min-height: 449px;
+  background-color: #384356; }
 
 .mainNavul,
 .footer {
-  width: 100%; }
+  width: 100%;
+  background-color: #384356; }
 
 .mainNavul li,
 .footer li {
